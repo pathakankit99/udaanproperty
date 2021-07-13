@@ -1,0 +1,11 @@
+.utsav-residential-page .location .card{
+    height: 430px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1023px)
+{
+    .utsav-residential-page .location .card{
+        height: 100%;
+    }
+}

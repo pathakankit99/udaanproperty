@@ -10,7 +10,7 @@ function gallery() {
                 <meta name="description" content="Generate a SEO Friendly Description" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Navbar active="gallery"/>
+            <Navbar/>
             <main>
                 <Section1/>
             </main>    

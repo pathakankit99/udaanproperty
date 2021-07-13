@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import '../styles/utsav.css'
 import '../styles/contact.css'
+import '../styles/gallery.css'
 import 'react-slideshow-image/dist/styles.css'
 import {ChakraProvider} from '@chakra-ui/react'
 function MyApp({ Component, pageProps }) {

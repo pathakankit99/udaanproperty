@@ -53,7 +53,7 @@ function Navbar() {
                 </div>
                 <div className="pb-2 pr-4">
                     <span className="text-2xl text-gray-800 font-bold">Udaan<br/></span>
-                    <span className="text-xl text-indigo-700 font-bold">Properties</span>
+                    <span className="text-xl text-indigo-700 font-bold">Property</span>
                 </div>
             </div>
             <div style={style} className="fixed flex justify-center items-center menu z-10 bg-indigo-700 text-white top-0 bottom-0 right-0 left-0">

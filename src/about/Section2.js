@@ -1,7 +1,7 @@
 function Section2() {
     return (
-        <section style={{minHeight: "100vh"}} className="rounded-t-3xl location p-4 lg:px-32 bg-gray-900">
-            <h3 className="heading font-bold mb-6 text-white">The Team</h3>
+        <section style={{minHeight: "100vh"}} className="rounded-t-3xl location p-4 lg:px-32 bg-white lg:bg-gray-900">
+            <h3 className="heading font-bold mb-6 text-gray-900 lg:text-white">The Team</h3>
             <div className="flex flex-wrap justify-between items-center bg-green-200 mb-4 shadow-xl ">
                 <div className="h-full w-full md:w-4/12 overflow-hidden">
                     <img className="w-full h-full object-cover " src="/images/sanjay_singh.png"/>

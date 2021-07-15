@@ -22,7 +22,7 @@ function Footer() {
                         West Bengal
                     </p>
                     <br/>
-                    <div className="flex items-center py-1"><span><FaPhoneAlt/></span><a href="tel:7031785903" className="mx-2 hover:underline"> (+91) 7031785903</a></div>
+                    <div className="flex items-center py-1"><span><FaPhoneAlt/></span><a href="tel:+918967379419" className="mx-2 hover:underline"> (+91) 8967379419</a></div>
                     <div className="flex items-center py-1"><span><FaEnvelope/></span><a href="mailto:contact@udaayproperty.com" className="mx-2 hover:underline"> contact@udaayproperty.com</a></div>
                 </div>
                 <div className="mt-6 md:m-0 w-full md:w-6/12">
@@ -33,16 +33,13 @@ function Footer() {
                         <Link href="/">Home</Link>
                     </li>
                     <li className="hover:underline">
-                        <Link href="/">Utsav Residential</Link>
+                        <Link href="/utsav-residential">Utsav Residential</Link>
                     </li>
                     <li className="hover:underline">
-                        <Link href="/">Gallery</Link>
+                        <Link href="/about-us">About Us</Link>
                     </li>
                     <li className="hover:underline">
-                        <Link href="/">About Us</Link>
-                    </li>
-                    <li className="hover:underline">
-                        <Link href="/">Contact Us</Link>
+                        <Link href="/contact">Contact Us</Link>
                     </li>
                     </ul>
                 </div>

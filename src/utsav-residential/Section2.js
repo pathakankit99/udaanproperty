@@ -1,10 +1,10 @@
 function Section1() {
     return (
-        <section style={{minHeight: "100vh"}} className="location p-4 lg:px-32 bg-gray-900 text-white">
-           <h3 className="heading font-bold mb-6">Location Features</h3>
+        <section style={{minHeight: "100vh"}} className="location p-4 lg:px-32 bg-white lg:bg-gray-900">
+           <h3 className="heading font-bold mb-6 text-gary-900 lg:text-white">Location Features</h3>
             <div className="card overflow-hidden shadow-xl flex flex-wrap relative justify-center items-center bg-gray-700">
                 <div style={{width: "100px", height:"100px"}} className="absolute flex justify-center items-center z-50 top-0 right-0 bg-pink-500 ">
-                    <p className="text-5xl">5<span className="text-lg">KM</span></p>
+                    <p className="text-5xl text-white">5<span className="text-lg">KM</span></p>
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
@@ -22,7 +22,7 @@ function Section1() {
             </div>
             <div className="card overflow-hidden shadow-xl flex flex-wrap relative justify-center items-center bg-gray-700">
                 <div style={{width: "100px", height:"100px"}} className="absolute flex justify-center items-center z-50 top-0 right-0 bg-pink-500 ">
-                    <p className="text-5xl">7<span className="text-lg">KM</span></p>
+                    <p className="text-5xl text-white">7<span className="text-lg">KM</span></p>
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
@@ -40,7 +40,7 @@ function Section1() {
             </div>
             <div className="card overflow-hidden shadow-xl flex flex-wrap relative justify-center items-center bg-gray-700">
                 <div style={{width: "100px", height:"100px"}} className="absolute flex justify-center items-center z-50 top-0 right-0 bg-pink-500 ">
-                    <p className="text-5xl">4<span className="text-lg">KM</span></p>
+                    <p className="text-5xl text-white">4<span className="text-lg">KM</span></p>
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
@@ -58,7 +58,7 @@ function Section1() {
             </div>
             <div className="card overflow-hidden shadow-xl flex flex-wrap relative justify-center items-center bg-gray-700">
                 <div style={{width: "100px", height:"100px"}} className="absolute flex justify-center items-center z-50 top-0 right-0 bg-pink-500 ">
-                    <p className="text-5xl">3<span className="text-lg">KM</span></p>
+                    <p className="text-5xl text-white">3<span className="text-lg">KM</span></p>
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
@@ -74,7 +74,7 @@ function Section1() {
             </div>
             <div className="card overflow-hidden shadow-xl flex flex-wrap relative justify-center items-center bg-gray-700">
                 <div style={{width: "100px", height:"100px"}} className="absolute flex justify-center items-center z-50 top-0 right-0 bg-pink-500 ">
-                    <p className="text-5xl">5<span className="text-lg">KM</span></p>
+                    <p className="text-5xl text-white">5<span className="text-lg">KM</span></p>
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">

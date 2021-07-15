@@ -2,17 +2,17 @@ import Link from "next/link";
 import {FaArrowRight} from "react-icons/fa"
 function Section2() {
     return (
-        <section id="Projects" className="homeSection2 lg:px-32 pb-32 bg-gray-900">
-            <h3 className="p-4 heading text-white font-bold">Our Projects</h3>
+        <section id="Projects" className="homeSection2 lg:px-32 pb-32 bg-white lg:bg-gray-900">
+            <h3 className="p-4 heading text-gray-900 lg:text-white font-bold">Our Projects</h3>
             <div className="flex flex-wrap justify-between items-center">
-                <div className="card h-64 m-4 w-full lg:w-5/12 flex items-center bg-gray-700 p-0">
+                <div className="card h-64 my-2 w-full lg:w-8/12 flex items-center bg-gray-700 p-0">
                     <div className="w-6/12 text-gray-300 p-4">
                         <h6 className="font-bold text-lg md:text-2xl xl:text-3xl text-indigo-400 pb-4">Utsav Residential</h6>
                         <p className="text-sm xl:text-md">
                         Utsav Residential, is a proposed modern integrated township located at Medical More, near North Point residential boarding school, opposite SSB Camp, Ranidanga.
                         </p>
                         <div className="inline-block mt-4 text-xs">
-                            <Link href="/about-us" passHref>
+                            <Link href="/utsav-residential" passHref>
                                 <div className="block btn text-indigo-300 border hover:bg-indigo-900 border-indigo-300 flex justify-center pointeronhover items-center">
                                     <span className="transformIcon">
                                         <FaArrowRight/>

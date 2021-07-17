@@ -11,7 +11,7 @@ function utsavResidential() {
         <div>
             <Head>
                 <title>Udaan Property - Utsav Residential</title>
-                <meta name="description" content="Generate a SEO Friendly Description" />
+                <meta name="description" content="Utsav Residential, is a proposed modern integrated township located at Medical More, near North Point residential boarding school, opposite SSB Camp, Ranidanga. Buzzing with development activities, the plots on offer in Utsav Residential are in various sizes of <b>7200 to 8600 sq feet</b>, enabling you to build a house the way you desire." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar active="projects"/>

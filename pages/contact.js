@@ -7,7 +7,7 @@ function contact() {
         <div>
             <Head>
                 <title>Udaan Property - Contact Us</title>
-                <meta name="description" content="Generate a SEO Friendly Description" />
+                <meta name="description" content="We at Udaan Properties love to improve our services. Please feel free to Contact Us." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar active="contact"/>

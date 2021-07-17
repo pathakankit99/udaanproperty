@@ -9,7 +9,7 @@ function home() {
         <div className="relative w-full">
           <Head>
             <title>Udaan Property</title>
-            <meta name="description" content="Generate a SEO Friendly Description" />
+            <meta name="description" content="Udaan Properties have earned the badge as the prominent realtor in North Bengal, providing tailored real estate solutions for your dream home or the right office environment for your business." />
             <link rel="icon" href="/favicon.ico" />
           </Head>
           

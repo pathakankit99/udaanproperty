@@ -114,3 +114,16 @@ overflow: hidden;
   }
 }
 /* fading image */
+
+/*Project Card */
+.project .card{
+  height: 300px;
+}
+
+@media (max-width: 767px)
+{
+  .project .card{
+      height: 100%;
+  }
+}
+/* Card */

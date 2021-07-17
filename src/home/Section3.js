@@ -6,13 +6,13 @@ function Section3() {
             <h3 className="px-4 md:-mb-24 heading font-bold">Latest Project</h3>
             <div className="flex flex-wrap justify-between items-center">
                 <div className="w-full lg:w-7/12">
-                    <img src="/images/utsav.svg"/>
+                    <img src="/images/utsav-residential/utsav.svg"/>
                 </div>                
                 <div className="w-full lg:w-4/12">
                     <h2 className="heading2">Utsav Residential</h2>
                     <p className="py-6">
                         Utsav Residential, is a proposed modern integrated township located at Medical More, near North Point residential boarding school, opposite SSB Camp, Ranidanga. 
-                        Buzzing with development activities, the plots on offer in Utsav Residential are in various sizes of <b>115 to 1000 sq yard</b>, enabling you to build a house the way you desire.<br/>
+                        Buzzing with development activities, the plots on offer in Utsav Residential are in various sizes of <b>7200 to 8600 sq feet</b>, enabling you to build a house the way you desire.<br/>
                         
                     </p>
                     <span className="inline-block">

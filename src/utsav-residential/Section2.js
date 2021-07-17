@@ -8,7 +8,7 @@ function Section1() {
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
-                        <img className="object-cover h-full w-full" src="/images/bagdograAirport.jpg"/>
+                        <img className="object-cover h-full w-full" src="/images/utsav-residential/bagdograAirport.jpg"/>
                     </span>
                 </div>
                 <div className="w-full lg:w-6/12 p-4">
@@ -26,7 +26,7 @@ function Section1() {
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
-                        <img className="object-cover h-full w-full" src="/images/njpStation.jpg"/>
+                        <img className="object-cover h-full w-full" src="/images/utsav-residential/njpStation.jpg"/>
                     </span>
                 </div>
                 <div className="w-full lg:w-6/12 p-4">
@@ -44,7 +44,7 @@ function Section1() {
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
-                        <img className="object-cover h-full w-full" src="/images/NBMCH.jpg"/>
+                        <img className="object-cover h-full w-full" src="/images/utsav-residential/NBMCH.jpg"/>
                     </span>
                 </div>
                 <div className="w-full lg:w-6/12 p-4">
@@ -62,7 +62,7 @@ function Section1() {
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
-                        <img className="object-cover h-full w-full" src="/images/NBU.jpg"/>
+                        <img className="object-cover h-full w-full" src="/images/utsav-residential/NBU.jpg"/>
                     </span>
                 </div>
                 <div className="w-full lg:w-6/12 p-4">
@@ -78,7 +78,7 @@ function Section1() {
                 </div>
                 <div className="w-full h-full lg:w-6/12">
                     <span className="faded faded-right faded-bottom h-full w-full text-gray-700">
-                        <img className="object-cover h-full w-full" src="/images/cc.jpg"/>
+                        <img className="object-cover h-full w-full" src="/images/utsav-residential/cc.jpg"/>
                     </span>
                 </div>
                 <div className="w-full lg:w-6/12 p-4">

@@ -1,4 +1,7 @@
 import Lottie from "react-lottie"
+import {useState} from 'react'
+import {useToast} from "@chakra-ui/react"
+import axios from 'axios'
 import * as animationData from '../public/lottie/contact2.json'
 function ContactUs() {
     const lottieOptions={
@@ -9,6 +12,44 @@ function ContactUs() {
           preserveAspectRatio: "xMidYMid slice"
         }
     };
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+    const toast = useToast()
+
+    const handleSubmit=async(e)=>{
+      e.preventDefault()
+      if(name && email && message)
+      {
+        const data = {
+            name,
+            email,
+            message
+       };
+        await axios.post('/api/contact', data)
+            .then(res => {
+                toast({
+                title: "Submitted Data Successfully",
+                description: res.data.message,
+                status: "success",
+                duration: 3000,
+                isClosable: true,
+              })
+              setName("")
+              setMessage("")
+              setEmail("")
+            })
+            .catch( err => {  
+                toast({
+                    title: "Some error occured",
+                    description: err.response.data,
+                    status: "error",
+                    duration: 3000,
+                    isClosable: true,
+                  })
+            });
+      }
+  }
     return (
         <section style={{minHeight: "100vh"}} className="flex justify-center items-center flex-wrap relative">
             <div className="p-4 py-12 lg:p-0 w-full lg:w-5/12 order-2 lg:order-1 bg-black lg:bg-transparent">
@@ -18,17 +59,23 @@ function ContactUs() {
                 <form className="mt-6 lg:w-8/12 text-indigo-200">
                     <div className="mb-3 pt-0">
                         <label>Full Name <span>*</span></label>
-                        <input className="mt-2" type="text" placeholder="Full Name"/>
+                        <input required className="mt-2" type="text" placeholder="Full Name"
+                        value={name}
+                        onChange={(e)=>setName(e.target.value)}
+                        />
                     </div>
                     <div className="mb-3 pt-0">
                         <label>Email <span>*</span></label>
-                        <input className="mt-2" type="email" placeholder="Email"/>
+                        <input required className="mt-2" type="email" placeholder="Email"
+                        value={email}
+                        onChange={(e)=>setEmail(e.target.value)}/>
                     </div>
                     <div className="mb-3 pt-0">
                         <label>Message <span>*</span></label>
-                        <textarea  rows={7} className="px-3 mt-2 py-3 text-gray-700" placeholder="Message"></textarea>
+                        <textarea required rows={7} className="px-3 mt-2 py-3 text-gray-700" placeholder="Message"value={message}
+                      onChange={(e)=>setMessage(e.target.value)}></textarea>
                     </div>
-                    <input type="submit" value="submit" className="pointeronhover btn bg-blue-200 text-blue-900 hover:bg-blue-800 hover:text-white shadow-xl"/>
+                    <button onClick={(e)=>handleSubmit(e)}  className="pointeronhover btn bg-blue-200 text-blue-900 hover:bg-blue-800 hover:text-white shadow-xl">Submit</button>
                 </form>
             </div>
             <div className="w-full lg:w-5/12 order-1 flex justify-center">

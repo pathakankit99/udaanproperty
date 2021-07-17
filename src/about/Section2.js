@@ -22,7 +22,11 @@ function Section2() {
                 <div className="flex-1 p-4 border-blue-600 md:border-l-4">
                     <h3 className="heading2">Sanjay Goel</h3>
                     <div className="inline-block rounded-xl mb-6 text-indigo-200 bg-gray-900 px-2 py-1">CO</div>
-                    <p></p>
+                    <p>With over 25+ years of experience in the market, Sanjay Goel is one of the most prominent faces in the North Bengal Real estate industry.
+                        His ability to effectively manage and grow the company is immensely valuable.
+                        <br/>
+                        Sanjay goel, with his invaluable experience from years of hard work, forms relations with different companies and clients which helps Udaan Property to grow.
+                    </p>
                 </div>
             </div>
 
